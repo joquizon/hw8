@@ -1,0 +1,60 @@
+@font-face {font-family: sportsjersey;
+				src:url( sportsjersey.ttf)}
+
+@font-face {font-family: primetime;
+				src:url( primetime.ttf)}
+
+@font-face {font-family: rurable;
+				src:url( rurable.ttf)}
+
+body  {
+   		 background-image: url("galaxy.gif");
+			height:100%;
+				width:100%;
+					background-repeat:no-repeat;
+						background-attachment:fixed;
+							background-size:cover;
+}
+
+p {font-family: primetime;
+		font-size: 185px;
+			color:white;
+				float:left;}
+
+/*tablet vert/phone vert*/
+ @media only screen and (max-width : 900px) {
+    body  {
+    		background-image: url("earthsky.gif");
+    			height:100%;
+					width:100%;
+						background-repeat:no-repeat;
+							background-attachment:fixed;
+								background-size:cover;
+	    }
+
+	p {font-family: primetime;
+		font-size: 50px;
+			color:white;
+				text-align:center;
+					margin-top:250px;}
+}
+
+
+/*phone pan/ tablet pan*/
+  @media only screen and (max-height : 376px)  {
+    body  {
+    		background-image: url("mushroom.gif");
+    			height:100%;
+					width:100%;
+						background-repeat:no-repeat;
+							background-attachment:fixed;
+								background-size:cover;
+									margin-right: 20%
+	    }
+
+	p {font-family: sportsjersey;
+		font-size: 100px;
+			color:white;
+				margin-top: 25px;
+			}
+}
